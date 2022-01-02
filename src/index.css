@@ -124,7 +124,7 @@ body {
   background-image: url("./assets/woman-gf1afdd143_1920.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: auto auto;
   height: 100%;
 }
 
