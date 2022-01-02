@@ -15,7 +15,11 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid ">
-        <a className="navbar-brand" href="/" style={{ color: "red" ,fontSize:"40px", fontWeight:"800"}}>
+        <a
+          className="navbar-brand"
+          href="/"
+          style={{ color: "red", fontSize: "40px", fontWeight: "800" }}
+        >
           React Movie App
         </a>
         <div className="buttons ms-auto">
@@ -24,7 +28,7 @@ const Navbar = () => {
           ) : (
             <button
               type="button"
-              className="ms-2 btn btn-primary p-0"
+              className="ms-2 btn btn-primary"
               onClick={() => navigate("/login")}
             >
               Login
@@ -33,7 +37,7 @@ const Navbar = () => {
           {currentUser ? (
             <button
               type="button"
-              className="ms-2 btn btn-danger p-0"
+              className="ms-2 btn btn-danger"
               onClick={() => signOutFunc()}
             >
               Logout
@@ -41,7 +45,7 @@ const Navbar = () => {
           ) : (
             <button
               type="button"
-              className="ms-2 btn btn-success p-0"
+              className="ms-2 btn btn-success"
               onClick={() => navigate("/register")}
             >
               Register

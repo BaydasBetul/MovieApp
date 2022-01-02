@@ -25,7 +25,7 @@ const Login = () => {
       </div> */}
       <div className="register-form">
         <h1
-          className="form-title display-3 p-0"
+          className="form-title display-3"
           style={{ color: "black", fontSize: "40px" }}
         >
           Login

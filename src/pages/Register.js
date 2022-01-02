@@ -85,7 +85,7 @@ const Register = () => {
           </div>
           <input
             type="button"
-            className="btn btn-danger form-control p-0"
+            className="btn btn-danger form-control"
             value="Register"
             onClick={handleSubmit}
           />
