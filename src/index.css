@@ -154,11 +154,11 @@ body {
   text-align: center;
   margin-bottom: 3rem;
 }
-/* .form-image {
+.form-image {
   flex: 1; 
   width: 800px;
   height: 800px;
-} */
+}
 
 .buttons {
   display: flex;
