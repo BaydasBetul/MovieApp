@@ -124,8 +124,8 @@ body {
   background-image: url("./assets/woman-gf1afdd143_1920.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 60%;
+  background-size: contain;
+  height: 100%;
 }
 
 .register-form {
