@@ -108,7 +108,7 @@ body {
 }
 
 .form-control {
-  width: 300px;
+  /* width: 300px; */
   margin: 20px;
 }
 
@@ -126,7 +126,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  color:black;
 }
 
 .register-form {
@@ -140,7 +139,8 @@ body {
   padding-left: 1.5rem;
   margin-bottom: 0px;
   font-size: 1.5rem;
-} 
+  color: black;
+}
 
 .form-control {
   width: 90%;
