@@ -45,7 +45,7 @@ const Navbar = () => {
           ) : (
             <button
               type="button"
-              className="ms-2 btn btn-success"
+              className="ms-2 btn btn-danger"
               onClick={() => navigate("/register")}
             >
               Register
