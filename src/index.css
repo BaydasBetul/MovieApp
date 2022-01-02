@@ -124,12 +124,12 @@ body {
   background-image: url("./assets/woman-gf1afdd143_1920.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto auto;
+  background-size: cover;
   height: 100%;
 }
 
 .register-form {
-  flex: 1;
+  /* flex: 1; */
   /* background-image: linear-gradient(to left, #434343 0%, black 100%); */
   color: #f5efef;
   padding: 3rem;
