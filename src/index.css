@@ -121,7 +121,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url("./assets/pexels-yura-forrat-8642176.jpg");
+  background-image: url("./assets/pexels-tima-miroshnichenko-7991182.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,7 +139,7 @@ body {
   padding-left: 1.5rem;
   margin-bottom: 0px;
   font-size: 1.5rem;
-  color: black;
+  /* color: black; */
 }
 
 .form-control {
